@@ -1,7 +1,7 @@
 state("GoWR")
 {
-  int IGT : 0x393370C; //IGT in seconds
-  int MainMenu : 0x5D09384; //1 on menu, 0 out of menu
+  int IGT : 0x393570C; //IGT in seconds
+  int MainMenu : 0x5D0B384; //1 on menu, 0 out of menu
 }
 
 startup
