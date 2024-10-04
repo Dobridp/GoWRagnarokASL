@@ -32,7 +32,7 @@ onStart
 
 start
 {
-  if (settings["Main Game"] && current.MainMenu == 0 && old.MainMenu == 1)
+  if (settings["Main Game"] && current.MainMenu == 0 && old.MainMenu == 1 && current.IGT < 60)
   {
     return true;
   }
