@@ -2,6 +2,7 @@ state("GoWR")
 {
   int IGT : 0x393570C; //IGT in seconds
   int MainMenu : 0x5D0B384; //1 on menu, 0 out of menu
+  int Load: 0x5D0B380; //0 when not loading, 257 when loading, 256 when in cutscene loading
 }
 
 startup
@@ -19,7 +20,7 @@ init
 
 update
 {
-  if (current.IGT > old.IGT)
+  if (current.IGT > old.IGT && (current.IGT - old.IGT) < 2)
   {
     vars.igtAux += current.IGT - old.IGT;
   }
@@ -32,7 +33,7 @@ onStart
 
 start
 {
-  if (settings["Main Game"] && current.MainMenu == 0 && old.MainMenu == 1 && current.IGT < 60)
+  if (settings["Main Game"] && current.MainMenu == 0 && old.MainMenu == 1 && current.Load == 0)
   {
     return true;
   }
