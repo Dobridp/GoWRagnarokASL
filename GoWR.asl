@@ -26,7 +26,7 @@ update
   }
 }
 
-onStart
+onReset
 {
   vars.igtAux = 0;
 }
