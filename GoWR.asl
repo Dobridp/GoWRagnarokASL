@@ -13,11 +13,6 @@ startup
   settings.SetToolTip("Valhalla", "Autosplitter Work in Progress");
 }
 
-init
-{
-  vars.igtAux = 0;
-}
-
 update
 {
   if (current.IGT > old.IGT && (current.IGT - old.IGT) < 2)
@@ -26,7 +21,7 @@ update
   }
 }
 
-onReset
+onStart
 {
   vars.igtAux = 0;
 }
