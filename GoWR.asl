@@ -1,8 +1,8 @@
 state("GoWR")
 {
-  int IGT : 0x393578C; //IGT in seconds
-  int MainMenu : 0x3935592; //1 on menu, 0 out of menu
-  int Load: 0x5D0B480; //0 when not loading, 257 when loading, 256 when in cutscene loading
+  int IGT : 0x393688c; //IGT in seconds
+  int MainMenu : 0x3936692; //1 on menu, 0 out of menu
+  int Load: 0x5D0C578; //0 when not loading, 257 when loading, 256 when in cutscene loading
 }
 
 startup
