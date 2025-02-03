@@ -1,9 +1,9 @@
 state("GoWR")
 {
-  int IGT : 0x393688c; //IGT in seconds
-  float IGTms : 0x53c2638; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0.
-  int MainMenu : 0x3936692; //1 on menu, 0 out of menu
-  int Load: 0x5D0C578; //0 when not loading, 257 when loading, 256 when in cutscene loading
+  int IGT : 0x39B3A8C; //IGT in seconds
+  float IGTms : 0x605DA74; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0.
+  int MainMenu : 0x5D89E7C; //1 on menu, 0 out of menu
+  int Load: 0x5D89E78; //0 when not loading, 257 when loading, 256 when in cutscene loading
 }
 
 startup
