@@ -24,7 +24,7 @@ update
 
 onStart
 {
-  vars.igtAux = 0.0;
+  vars.igtAux = 0;
 }
 
 start
@@ -46,12 +46,14 @@ isLoading
 
 gameTime
 {
+  float frac = (float)Math.Round(current.IGTms, 2);
+  int sec = current.IGT;
   if (settings["Valhalla"])
   {
-    return TimeSpan.FromSeconds(current.IGT + current.IGTms);
+    return TimeSpan.FromSeconds(sec + frac);
   }
   else
   {
-    return TimeSpan.FromSeconds(vars.igtAux + current.IGTms);
+    return TimeSpan.FromSeconds(vars.igtAux + frac);
   }
 }
