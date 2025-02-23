@@ -12,19 +12,30 @@ startup
   settings.SetToolTip("Main Game", "Autosplitter Work in Progress");
   settings.Add("Valhalla", false);
   settings.SetToolTip("Valhalla", "Autosplitter Work in Progress");
+  vars.igtAux = 0.0;
 }
 
 update
 {
-  if (current.IGT > old.IGT && (current.IGT - old.IGT) < 2)
+  if (current.Load != 256)
   {
-    vars.igtAux += current.IGT - old.IGT;
+    if (current.IGTms > old.IGTms && (current.IGTms - old.IGTms) > 0.01)
+    {
+      vars.igtAux += current.IGTms - old.IGTms;
+    }
+  }
+  else
+  {
+    if (current.IGT > old.IGT)
+    {
+      vars.igtAux += current.IGT - old.IGT;
+    }
   }
 }
 
 onStart
 {
-  vars.igtAux = 0;
+  vars.igtAux = 0.0;
 }
 
 start
@@ -46,14 +57,5 @@ isLoading
 
 gameTime
 {
-  float frac = (float)Math.Round(current.IGTms, 2);
-  int sec = current.IGT;
-  if (settings["Valhalla"])
-  {
-    return TimeSpan.FromSeconds(sec + frac);
-  }
-  else
-  {
-    return TimeSpan.FromSeconds(vars.igtAux + frac);
-  }
+  return TimeSpan.FromSeconds(vars.igtAux);
 }
