@@ -1,7 +1,7 @@
 state("GoWR")
 {
   int IGT : 0x39B3B0C; //IGT in seconds
-  float IGTms : 0x605DB04; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0.
+  float IGTms : 0x605DB04; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0 -> currently broken
   int MainMenu : 0x5D89EFC; //1 on menu, 0 out of menu
   int Load: 0x5D89EF8; //0 when not loading, 257 when loading, 256 when in cutscene loading
 }
@@ -17,19 +17,9 @@ startup
 
 update
 {
-  if (current.Load != 256)
+  if (current.IGT > old.IGT && (current.IGT - old.IGT) < 2)
   {
-    if (current.IGTms > old.IGTms && (current.IGTms - old.IGTms) > 0.01)
-    {
-      vars.igtAux += current.IGTms - old.IGTms;
-    }
-  }
-  else
-  {
-    if (current.IGT > old.IGT)
-    {
-      vars.igtAux += current.IGT - old.IGT;
-    }
+    vars.igtAux += current.IGT - old.IGT;
   }
 }
 
