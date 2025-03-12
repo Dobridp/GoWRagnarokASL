@@ -19,7 +19,7 @@ startup
   settings.Add("Log", false);
   settings.SetToolTip("Log", "Log the objective numbers");
   vars.igtAux = 0.0;
-  Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Unity");
+  Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
   vars.Helper.StartFileLogger("ObjectiveNumbers.log");
 
   vars.ObjectiveNames = new List<string>{
