@@ -1,9 +1,9 @@
 state("GoWR")
 {
-  int IGT : 0x39B3B0C; //IGT in seconds
-  float IGTms : 0x605DB04; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0 -> currently broken
-  int MainMenu : 0x5D89EFC; //1 on menu, 0 out of menu
-  int Load: 0x5D89EF8; //0 when not loading, 257 when loading, 256 when in cutscene loading
+  int IGT : 0x39BED9C; //IGT in seconds
+  float IGTms : 0x6068D84; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0 -> currently broken (out of sync)
+  int MainMenu : 0x5D9517C; //1 on menu, 0 out of menu
+  int Load: 0x5D95178; //0 when not loading, 257 when loading, 256 when in cutscene loading
   uint Objective: 0x25DE880; //Objective number, changes number base off the objective 0 when in mainmenu and loading
   uint MainObjective: 0x25D6C98; //Should only be main path objective as it doesnt go to 0 when loading but it might not get all the objectives
   string100 SFD: 0x256A8E1; //Save file Description so same as in 2018 but for this game
