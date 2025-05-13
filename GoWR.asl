@@ -21,10 +21,10 @@ startup
   switch (culture)
   {
     case "pt-BR": // work in progress
-      vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings." + culture + ".xml");
+      vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings." + culture + ".xml", false);
       break;
     default:
-      vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings.en-US.xml");
+      vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings.en-US.xml", false);
       break;
   }
 
