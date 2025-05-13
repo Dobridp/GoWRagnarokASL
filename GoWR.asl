@@ -1,7 +1,7 @@
 state("GoWR")
 {
   int IGT : 0x39C001C; //IGT in seconds
-  float IGTms : 0x606A004; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0 -> currently broken
+  float IGTms : 0x606A004; //ms of the IGT -> 0.0 to 1.0, when on 1.0, IGT goes up by 1 and resets back to 0.0
   int MainMenu : 0x5D963FC; //1 on menu, 0 out of menu
   int Load: 0x5D963F8; //0 when not loading, 257 when loading, 256 when in cutscene loading
   uint Obj: 0x25EABE0; //Objective number, changes number base off the objective 0 when in mainmenu and loading
