@@ -25,10 +25,6 @@ startup
       vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings." + culture + ".xml");
       vars.Language = "Brazilian Portuguese";
       break;
-   case "en-Us": // for testing to make sure settings are working
-      vars.Helper.Settings.CreateFromXml("C:/Users/jjdom/OneDrive/Desktop/notes/GodOfWarRagnarok.Settings.en-US.xml");
-      vars.Language = "English";
-      break;
     default:
       vars.Helper.Settings.CreateFromXml("C:/Users/jjdom/OneDrive/Desktop/notes/GodOfWarRagnarok.Settings.en-US.xml");
       vars.Language = "English";
