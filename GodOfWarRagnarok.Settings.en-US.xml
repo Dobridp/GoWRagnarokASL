@@ -1,7 +1,5 @@
 <Settings>
     <Setting Id= "Main Game" Label="Main Game" ToolTip="Splits everytime you complete a story task" State="false">
-        <Settings>
-    <Setting Id= "Main Game" Label="Main Game" ToolTip="Splits everytime you complete a story task" State="false">
         <Setting Id="0,20480" Label="Head Home (First Quest)" ToolTip="Splits when the Objective changes to Head Home (First Quest)" State="false"/>
             <Setting Id="20480,40960" Label="Dream Sequence 1" ToolTip="Splits when you start the First Dream Sequence" State="false"/>
             <Setting Id="40960,61440" Label="Track Atreus" ToolTip="Splits when the Objective changes to Track Atreus" State="false"/>
@@ -242,4 +240,5 @@
             <Setting Id="5242880,5263360" Label="Defeat Tyr" ToolTip="Splits when the Objective changes to Defeat Tyr" State="false"/>
             <Setting Id="5263360,5283840" Label="Open the Door" ToolTip="Splits when the Objective changes to Open the Door" State="false"/>
     </Settings>
+    <Settings Id="Berserkers" Label="Berserkers" ToolTip="Splits on each Berserkers fight after finsihing them" State="false"/>
 </Settings>
