@@ -179,7 +179,7 @@
             <Setting Id="3665920,3686400" Label="Follow Agrboda" ToolTip="Splits when the Objective changes to Follow Agrboda" State="false"/>
         <Setting Id="3686400,3706880" Label="Credits" ToolTip="Splits when the credits start playing" State="false"/>
         <Setting Id="3706880,3717120" Label="Beyond Ragnarok" ToolTip="Splits when the Objective changes to Set Things Right-Beyond Ragnarok" State="false"/>
-    </Settings>
+    </Setting>
 
     <Setting Id= "Valhalla" Label="Valhalla" ToolTip="Splits For Valhalla Work In progress" State="false">
         <Setting Id="0,3747840" Label="Explore the black sand shores(Start of the invintation)" ToolTip="Splits when the Objective changes to Explore the black sand shores" State="false"/>
@@ -239,6 +239,7 @@
             <Setting Id="5201920,5242880" Label="Return to Tyr" ToolTip="Splits when the Objective changes to Return to Tyr" State="false"/>
             <Setting Id="5242880,5263360" Label="Defeat Tyr" ToolTip="Splits when the Objective changes to Defeat Tyr" State="false"/>
             <Setting Id="5263360,5283840" Label="Open the Door" ToolTip="Splits when the Objective changes to Open the Door" State="false"/>
-    </Settings>
-    <Settings Id="Berserkers" Label="Berserkers" ToolTip="Splits on each Berserkers fight after finsihing them" State="false"/>
+    </Setting>
+    
+    <Setting Id="Berserkers" Label="Berserkers" ToolTip="Splits on each Berserkers fight after finsihing them" State="false"/>
 </Settings>
