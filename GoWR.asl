@@ -12,8 +12,8 @@ state("GoWR")
 
 startup
 {
-  settings.Add("Bersearkers", false);
-  settings.SetToolTip("Bersearkers", "Splits on each Berseakers after finsihing them");
+  settings.Add("Beserkers", false);
+  settings.SetToolTip("Berserkers", "Splits on each Berserkers after finsihing them");
   //asl help stuff
   Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
   var culture = System.Globalization.CultureInfo.CurrentCulture.Name;
@@ -86,8 +86,8 @@ split
           return true;
         }
   }
-  //splits for berseaker%
-  if(settings["Bersearkers"] && current.WarriorsKiled > old.WarriorsKiled)
+  //splits for Berserker%
+  if(settings["Berserkers"] && current.WarriorsKiled > old.WarriorsKiled)
   {
     return true;
   }
