@@ -24,7 +24,7 @@ startup
       vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings." + culture + ".xml");
       break;
     default:
-      vars.Helper.Settings.CreateFromXml("C:/Users/jjdom/OneDrive/Desktop/notes/GodOfWarRagnarok.Settings.en-US.xml");
+      vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings.GodOfWarRagnarok.Settings.en-US.xml");
       break;
   }
 
