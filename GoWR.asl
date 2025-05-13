@@ -5,6 +5,7 @@ state("GoWR")
   int MainMenu : 0x5D963FC; //1 on menu, 0 out of menu
   int Load: 0x5D963F8; //0 when not loading, 257 when loading, 256 when in cutscene loading
   uint Obj: 0x25EABE0; //Objective number, changes number base off the objective 0 when in mainmenu and loading
+  //uint AltObj: 0x25E2FF8; //Alt objective number, changes number base off the objective does not go to 0 at all
   string100 SFD: 0x256EC00; //Save file Description so same as in 2018 but for this game
   int SkapSlag: 0x5EB62C8, 0x4C8, 0x128, 0xFD8; // current amount of skap slag in your inventory, -1 in main menu
   int WarriorsKiled: 0x03729450, 0x80, 0x8, 0x148, 0xD88, 0xA78; // current amount of Berserkers killed, -1 in main menu and valhalla
@@ -12,8 +13,6 @@ state("GoWR")
 
 startup
 {
-  settings.Add("Beserkers", false);
-  settings.SetToolTip("Berserkers", "Splits on each Berserkers after finsihing them");
   //asl help stuff
   Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
   var culture = System.Globalization.CultureInfo.CurrentCulture.Name;
@@ -26,10 +25,10 @@ startup
       vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings." + culture + ".xml");
       vars.Language = "Brazilian Portuguese";
       break;
-   /* case "en-Us": // for testing to make sure settings are working
+   case "en-Us": // for testing to make sure settings are working
       vars.Helper.Settings.CreateFromXml("C:/Users/jjdom/OneDrive/Desktop/notes/GodOfWarRagnarok.Settings.en-US.xml");
       vars.Language = "English";
-      break;*/
+      break;
     default:
       vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings.en-US.xml");
       vars.Language = "English";
@@ -86,7 +85,7 @@ split
           return true;
         }
   }
-  //splits for Berserker%
+  //splits for berseaker%
   if(settings["Berserkers"] && current.WarriorsKiled > old.WarriorsKiled)
   {
     return true;
