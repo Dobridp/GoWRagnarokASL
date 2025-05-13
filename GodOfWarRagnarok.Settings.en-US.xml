@@ -215,8 +215,8 @@
         </Setting>
     </Setting>
     <Setting Id= "Valhalla" Label="Valhalla" ToolTip="Splits For Valhalla" State="false">
-        <Setting>
-            <Setting Id="0,3747840" Label="Explore the black sand shores(Start of the invitation)" ToolTip="Splits when the Objective changes to Explore the black sand shores" State="false"/>
+        <Setting Id="The Invitation" Label="The Invitation" ToolTip="Contains all the splits for The Invitation" State="false">
+            <Setting Id="0,3747840" Label="Explore the black sand shores" ToolTip="Splits when the Objective changes to Explore the black sand shores" State="false"/>
             <Setting Id="3747840,3768320" Label="Explore the Lower Realms of Valhalla" ToolTip="Splits when the Objective changes to Explore the Lower Realms of Valhalla" State="false"/>
             <Setting Id="3768320,3788800" Label="Choose a Shield and a Spartan Rage" ToolTip="Splits when the Objective changes to Choose a Shield and a Spartan Rage" State="false"/>
             <Setting Id="3788800,3809280" Label="Choose Spartan Rage/Shield" ToolTip="Splits when the Objective changes to Choose Spartan Rage/Shield" State="false"/>
