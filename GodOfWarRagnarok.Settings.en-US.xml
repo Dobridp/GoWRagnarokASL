@@ -1,6 +1,5 @@
 <Settings>
     <Setting Id= "Main Game" Label="Main Game" ToolTip="Splits every time you complete a story task" State="false">
-
         <Setting Id="Surviving Fimbulwinter" Label="Surviving Fimbulwinter" ToolTip="Contains all the splits for Surviving Fimbulwinter main quest" State="false">
             <Setting Id="0,20480" Label="Head Home" ToolTip="Splits when the Objective changes to Head Home" State="false"/>
             <Setting Id="20480,40960" Label="Dream Sequence 1" ToolTip="Splits when you start the First Dream Sequence" State="false"/>
@@ -19,7 +18,6 @@
             <Setting Id="286720,307200" Label="Meet At Fast Travel" ToolTip="Splits when the Objective changes to Meet At Fast Travel" State="false"/>
             <Setting Id="307200,327680" Label="Travel To Svartalfheim" ToolTip="Splits when the Objective changes to Travel To Svartalfheim" State="false"/>
         </Setting>
-
         <Setting Id="The Quest For Tyr" Label="The Quest For Tyr" ToolTip="Contains all the splits for The Quest For Tyr(work in progress)" State="false">
             <Setting Id="327680,348160" Label="Journey To Nid" ToolTip="Splits when the Objective changes to Journey To Nid" State="false"/>
             <Setting Id="348160,368640" Label="Explore Nid" ToolTip="Splits when the Objective changes to Explore Nid" State="false"/>
@@ -37,7 +35,6 @@
             <Setting Id="593920,614400" Label="Confer With Mimir" ToolTip="Splits when the Objective changes to Confer With Mimir" State="false"/>
             <!--<Setting Id="614400,634880" Label="Re-find 3" ToolTip="Splits when the Objective changes to Gap Objective" State="false"/>-->
         </Setting>
-
         <Setting Id="Old Friends" Label="Old Friends" ToolTip="Contains all the splits for Old Friends" State="false">
             <Setting Id="634880,655360" Label="Travel To Midgard" ToolTip="Splits when the Objective changes to Travel To Midgard" State="false"/>
             <Setting Id="655360,675840" Label="Speak With Jormungandr" ToolTip="Splits when the Objective changes to Speak With Jormungandr" State="false"/>
@@ -45,7 +42,6 @@
             <Setting Id="696320,716800" Label="Speak With Freya" ToolTip="Splits when the Objective changes to Speak With Freya" State="false"/>
             <Setting Id="716800,737280" Label="Return To Sindri's" ToolTip="Splits when the Objective changes to Return To Sindri's" State="false"/>
         </Setting>
-
         <Setting Id="Groas Secret" Label="Groas Secret" ToolTip="Contains all the splits for Groas Secret" State="false">
             <Setting Id="737280,757760" Label="Travel To Alfheim" ToolTip="Splits when the Objective changes to Travel To Alfheim" State="false"/>
             <Setting Id="757760,778240" Label="Reach The Triptych" ToolTip="Splits when the Objective changes to Reach The Triptych" State="false"/>
@@ -54,7 +50,6 @@
             <Setting Id="819200,839680" Label="Return To Sindri's" ToolTip="Splits when the Objective changes to Return To Sindri's(end of quest)" State="false"/>
             <Setting Id="839680,860160" Label="Eat Dinner" ToolTip="Splits when the Objective changes to Eat Dinner" State="false"/>
         </Setting>
-
         <Setting Id="The Lost Sanctuary" Label="The Lost Sanctuary" ToolTip="Contains all the splits for The Lost Sanctuary" State="false">
             <Setting Id="860160,880640" Label="Approach Phantom Atreus" ToolTip="Splits when the Objective changes to Approach Phantom Atreus" State="false"/>
             <Setting Id="880640,901120" Label="Follow The Wolf" ToolTip="Splits when the Objective changes to Follow The Wolf" State="false"/>
@@ -75,7 +70,6 @@
             <Setting Id="1187840,1208320" Label="Defeat Reavers" ToolTip="Splits when the Objective changes to Defeat Reavers" State="false"/>
             <Setting Id="1208320,1228800" Label="Return To Sindri's House" ToolTip="Splits when the Objective changes to Return To Sindri's House" State="false"/>
         </Setting>
-
         <Setting Id="The Reckoning" Label="The Reckoning" ToolTip="Contains all the splits for The Reckoning" State="false">
             <Setting Id="1228800,1249280" Label="Freya Fight" ToolTip="Splits when you start the Freya Fight" State="false"/>
             <Setting Id="1249280,1269760" Label="Follow Freya To Vanaheim" ToolTip="Splits when the Objective changes to Follow Freya To Vanaheim" State="false"/>
@@ -95,9 +89,8 @@
             <Setting Id="1536000,1556480" Label="Check On Atreus" ToolTip="Splits when the Objective changes to Check On Atreus" State="false"/>
             <Setting Id="1556480,1576960" Label="Draugr Fight as Atreus" ToolTip="Splits when you start the Draugr Fight as Atreus" State="false"/>
         </Setting>
-
         <Setting Id="The Runaway" Label="The Runaway" ToolTip="Contains all the splits for The Runaway" State="false">
-            <Setting Id="1576960,1597440" Label="Find Shelter (start of The Runaway)" ToolTip="Splits when the Objective changes to Find Shelter (start of The Runaway)" State="false"/>
+            <Setting Id="1576960,1597440" Label="Find Shelter" ToolTip="Splits when the Objective changes to Find Shelter" State="false"/>
             <Setting Id="1597440,1617920" Label="Continue To Freya's" ToolTip="Splits when the Objective changes to Continue To Freya's" State="false"/>
             <Setting Id="1617920,1638400" Label="Light A Fire For Chaurli" ToolTip="Splits when the Objective changes to Light A Fire For Chaurli" State="false"/>
             <Setting Id="1638400,1658880" Label="Follow Odin's Raven" ToolTip="Splits when the Objective changes to Follow Odin's Raven" State="false"/>
@@ -109,7 +102,6 @@
             <Setting Id="1761280,1781760" Label="Go To Odin's Study" ToolTip="Splits when the Objective changes to Go To Odin's Study" State="false"/>
             <Setting Id="1781760,1802240" Label="Walk With Odin" ToolTip="Splits when the Objective changes to Walk With Odin" State="false"/>
         </Setting>
-
         <Setting Id="Into The Fire" Label="Into The Fire" ToolTip="Contains all the splits for Into The Fire" State="false">
             <Setting Id="1802240,1822720" Label="Search For The Mask Fragment With Thor" ToolTip="Splits when the Objective changes to Search For The Mask Fragment With Thor" State="false"/>
             <Setting Id="1822720,1843200" Label="Investigate The Surtr Triptych" ToolTip="Splits when the Objective changes to Investigate The Surtr Triptych" State="false"/>
@@ -117,7 +109,6 @@
             <Setting Id="1863680,1884160" Label="Go Back To Your Quarters" ToolTip="Splits when the Objective changes to Go Back To Your Quarters" State="false"/>
             <!--<Setting Id="1884160,1904640" Label="Switching between Atreus and Kratos" ToolTip="Splits when Switching between Atreus and Kratos" State="false"/>-->
         </Setting>
-
         <Setting Id="The Word Of Fate" Label="The Word Of Fate" ToolTip="Contains all the splits for The Word Of Fate" State="false">
             <Setting Id="1904640,1925120" Label="Travel To Midgard" ToolTip="Splits when the Objective changes to Travel To Midgard" State="false"/>
             <Setting Id="1925120,1945600" Label="Get The Wolves" ToolTip="Splits when the Objective changes to Get The Wolves" State="false"/>
@@ -130,7 +121,6 @@
             <Setting Id="2129920,2150400" Label="Continue Talking To Dwarves" ToolTip="Splits when the Objective changes to Continue Talking To Dwarves" State="false"/>
             <Setting Id="2150400,2170880" Label="Travel To Svartalfheim" ToolTip="Splits when the Objective changes to Travel To Svartalfheim" State="false"/>
         </Setting>
-
         <Setting Id="Forging Destiny" Label="Forging Destiny" ToolTip="Contains all the splits for Forging Destiny" State="false">
             <Setting Id="2170880,2191360" Label="Reach The Forge" ToolTip="Splits when the Objective changes to Reach The Forge" State="false"/>
             <Setting Id="2191360,2211840" Label="Follow Brok To Forge" ToolTip="Splits when the Objective changes to Follow Brok To Forge" State="false"/>
@@ -146,7 +136,6 @@
             <Setting Id="2396160,2416640" Label="Go To Odin's Study" ToolTip="Splits when the Objective changes to Go To Odin's Study" State="false"/>
             <Setting Id="2416640,2437120" Label="Go To Library" ToolTip="Splits when the Objective changes to Go To Library Part Deux" State="false"/>
         </Setting>
-
         <Setting Id="Unleashing Hel" Label="Unleashing Hel" ToolTip="Contains all the splits for Unleashing Hel" State="false">
             <Setting Id="2437120,2457600" Label="Find The Mask Piece" ToolTip="Splits when the Objective changes to Find The Mask Piece" State="false"/>
             <Setting Id="2457600,2478080" Label="Find a way back to Asgard" ToolTip="Splits when the Objective changes to Find a way back to Asgard" State="false"/>
@@ -156,7 +145,6 @@
             <Setting Id="2539520,2560000" Label="Repel The Hel-Walkers" ToolTip="Splits when the Objective changes to Repel The Hel-Walkers" State="false"/>
             <Setting Id="2560000,2580480" Label="Defend Atreus" ToolTip="Splits when you gain control of Kratos and you have to defend Atreus" State="false"/>
         </Setting>
-
         <Setting Id="Reunion" Label="Reunion" ToolTip="Contains all the splits for Reunion" State="false">
             <Setting Id="2580480,2600960" Label="Approach Ratatoskr" ToolTip="Splits when the Objective changes to Approach Ratatoskr" State="false"/>
             <Setting Id="2600960,2621440" Label="Find Garm" ToolTip="Splits when the Objective changes to Find Garm" State="false"/>
@@ -172,7 +160,6 @@
             <Setting Id="2805760,2826240" Label="Reach Freyr's Camp" ToolTip="Splits when the Objective changes to Reach Freyr's Camp" State="false"/>
             <Setting Id="2826240,2846720" Label="Walk With Hildisvini" ToolTip="Splits when the Objective changes to Walk With Hildisvini" State="false"/>
         </Setting>
-
         <Setting Id="Creatures Of Prophecy" Label="Creatures Of Prophecy" ToolTip="Contains all the splits for Creatures Of Prophecy" State="false">
             <Setting Id="2846720,2867200" Label="Find Skoll And Hati" ToolTip="Splits when the Objective changes to Find Skoll And Hati" State="false"/>
             <Setting Id="2867200,2887680" Label="Find The Moon" ToolTip="Splits when the Objective changes to Find The Moon" State="false"/>
@@ -185,7 +172,6 @@
             <Setting Id="3010560,3031040" Label="Escape From The Prison" ToolTip="Splits when the Objective changes to Escape From The Prison" State="false"/>
             <Setting Id="3031040,3051520" Label="Reveal Gjallarhorn" ToolTip="Splits when the Objective changes to Reveal Gjallarhorn" State="false"/>
         </Setting>
-
         <Setting Id="The Mask" Label="The Mask" ToolTip="Contains all the splits for The Mask" State="false">
             <Setting Id="3051520,3072000" Label="Seek Out Huginn" ToolTip="Splits when the Objective changes to Seek Out Huginn" State="false"/>
             <Setting Id="3072000,3092480" Label="Speak With The AllFather" ToolTip="Splits when the Objective changes to Speak With The AllFather" State="false"/>
@@ -197,7 +183,6 @@
             <Setting Id="3194880,3215360" Label="Consider Tyr's Plan" ToolTip="Splits when the Objective changes to Consider Tyr's Plan" State="false"/>
             <Setting Id="3215360,3235840" Label="Leave..." ToolTip="Splits when the Objective changes to Leave..." State="false"/>
         </Setting>
-
         <Setting Id="Hunting For Solace" Label="Hunting For Solace" ToolTip="Contains all the splits for Hunting For Solace" State="false">
             <Setting Id="3235840,3256320" Label="Hunt With Atreus" ToolTip="Splits when the Objective changes to Hunt With Atreus" State="false"/>
             <Setting Id="3256320,3276800" Label="Find Sindri" ToolTip="Splits when the Objective changes to Find Sindri" State="false"/>
@@ -206,7 +191,6 @@
             <Setting Id="3317760,3338240" Label="Enter The House" ToolTip="Splits when the Objective changes to Enter The House" State="false"/>
             <Setting Id="3338240,3358720" Label="Go To Muspelheim" ToolTip="Splits when the Objective changes to Go To Muspelheim" State="false"/>
         </Setting>
-
         <Setting Id="The Summoning" Label="The Summoning" ToolTip="Contains all the splits for The Summoning" State="false">
             <Setting Id="3358720,3379200" Label="Reach Surtr's Forge" ToolTip="Splits when the Objective changes to Reach Surtr's Forge" State="false"/>
             <Setting Id="3379200,3399680" Label="Speak To Surtr" ToolTip="Splits when the Objective changes to Speak To Surtr" State="false"/>
@@ -216,7 +200,6 @@
             <Setting Id="3461120,3481600" Label="Return To The Realm Travel Gate" ToolTip="Splits when the Objective changes to Return To The Realm Travel Gate" State="false"/>
             <Setting Id="3481600,3502080" Label="Meet at The Temple" ToolTip="Splits when the Objective changes to Meet at The Temple" State="false"/>
         </Setting>
-
         <Setting Id="The Realms At War" Label="The Realms At War" ToolTip="Contains all the splits for The Realms At War" State="false">
             <Setting Id="3502080,3522560" Label="Get Some Rest" ToolTip="Splits when the Objective changes to Get Some Rest" State="false"/>
             <Setting Id="3522560,3543040" Label="Dream Sequence 3" ToolTip="Splits when you start the Final/Third Dream Sequence" State="false"/>
@@ -231,8 +214,7 @@
             <Setting Id="3706880,3717120" Label="Beyond Ragnarok" ToolTip="Splits when the Objective changes to Set Things Right-Beyond Ragnarok" State="false"/>
         </Setting>
     </Setting>
-
-    <Setting Id= "Valhalla" Label="Valhalla" ToolTip="Splits For Valhalla Work In progress" State="false">
+    <Setting Id= "Valhalla" Label="Valhalla" ToolTip="Splits For Valhalla" State="false">
         <Setting>
             <Setting Id="0,3747840" Label="Explore the black sand shores(Start of the invitation)" ToolTip="Splits when the Objective changes to Explore the black sand shores" State="false"/>
             <Setting Id="3747840,3768320" Label="Explore the Lower Realms of Valhalla" ToolTip="Splits when the Objective changes to Explore the Lower Realms of Valhalla" State="false"/>
@@ -241,7 +223,6 @@
             <Setting Id="3809280,3870720" Label="Talk to Eir or Gunnr" ToolTip="Splits when the Objective changes to Talk to Eir or Gunnr" State="false"/>
             <Setting Id="3870720,3932160" Label="The Invitation Quest Completes" ToolTip="Splits when the Objective changes to The Invitation Quest Completes" State="false"/>
         </Setting>
-
         <Setting Id="Quest 2" Label="Quest 2" ToolTip="Contains all the splits for Quest 2" State="false">
             <Setting Id="3932160,3973120" Label="Start Your First Real Attempt" ToolTip="Splits when the Objective changes to Start Your First Real Attempt" State="false"/>
             <Setting Id="3973120,4014080" Label="Defeat Valhalla's Chosen" ToolTip="Splits when the Objective changes to Defeat Valhalla's Chosen" State="false"/>
@@ -252,7 +233,6 @@
             <Setting Id="4096000,4116480" Label="Make a Sacrifice" ToolTip="Splits when the Objective changes to Make a Sacrifice" State="false"/>
             <Setting Id="4116480,4136960" Label="Start Another Run When Ready" ToolTip="Splits when the Objective changes to Start Another Run When Ready" State="false"/>
         </Setting>
-
         <Setting Id="The Host" Label="The Host" ToolTip="Contains all the splits for The Host" State="false">
             <Setting Id="4136960,4157440" Label="Start of the Host" ToolTip="Splits when the Objective changes to Start of the Host" State="false"/>
             <Setting Id="4157440,4218880" Label="Defeat Valhalla's Chosen" ToolTip="Splits when the Objective changes to Defeat Valhalla's Chosen" State="false"/>
@@ -265,7 +245,6 @@
             <Setting Id="4382720,4423680" Label="Open the Door" ToolTip="Splits when the Objective changes to Open the Door" State="false"/>
             <Setting Id="4423680,4444160" Label="Return to the Beach After Opening the Door" ToolTip="Splits when the Objective changes to Return to the Beach After Opening the Door" State="false"/>
         </Setting>
-
         <Setting Id="The Work, Part 1: Acceptance" Label="The Work, Part 1: Acceptance" ToolTip="Contains all the splits for The Work, Part 1: Acceptance" State="false">
             <Setting Id="4444160,4464640" Label="Start of the Work, Part 1: Acceptance" ToolTip="Splits when the Objective changes to Start of the Work, Part 1: Acceptance" State="false"/>
             <Setting Id="4464640,4505600" Label="Defeat Valhalla's Chosen" ToolTip="Splits when the Objective changes to Defeat Valhalla's Chosen" State="false"/>
@@ -279,7 +258,6 @@
             <Setting Id="4669440,4689920" Label="Defeat Tyr" ToolTip="Splits when the Objective changes to Defeat Tyr" State="false"/>
             <Setting Id="4689920,4710400" Label="Return to the Beach" ToolTip="Splits when the Objective changes to Return to the Beach" State="false"/>
         </Setting>
-
         <Setting Id="The Work, Part 2: Vigilance" Label="The Work, Part 2: Vigilance" ToolTip="Contains all the splits for The Work, Part 2: Vigilance" State="false">
             <Setting Id="4710400,4730880" Label="The Work, Part 2: Vigilance" ToolTip="Splits when the Objective changes to The Work, Part 2: Vigilance" State="false"/>
             <Setting Id="4730880,4771840" Label="Defeat Valhalla's Chosen" ToolTip="Splits when the Objective changes to Defeat Valhalla's Chosen" State="false"/>
@@ -293,8 +271,7 @@
             <Setting Id="4956160,4976640" Label="Defeat Tyr" ToolTip="Splits when the Objective changes to Defeat Tyr" State="false"/>
             <Setting Id="4976640,4997120" Label="Return to the Beach" ToolTip="Splits when the Objective changes to Return to the Beach" State="false"/>
         </Setting>
-
-        <Setting Id="The Work, Part 3: Benevolence" Label="The Work, Part 3: Benevolence" ToolTip="Contains all the splits for The Work, Part 3: Benevolence" State="false">>
+        <Setting Id="The Work, Part 3: Benevolence" Label="The Work, Part 3: Benevolence" ToolTip="Contains all the splits for The Work, Part 3: Benevolence" State="false">
             <Setting Id="4997120,5017600" Label="The Work, Part 3: Benevolence" ToolTip="Splits when the Objective changes to The Work, Part 3: Benevolence" State="false"/>
             <Setting Id="5017600,5058560" Label="Defeat Valhalla's Chosen" ToolTip="Splits when the Objective changes to Defeat Valhalla's Chosen" State="false"/>
             <Setting Id="5058560,5079040" Label="Touch the Ascending Sands" ToolTip="Splits when the Objective changes to Touch the Ascending Sands" State="false"/>
@@ -307,8 +284,6 @@
             <Setting Id="5242880,5263360" Label="Defeat Tyr" ToolTip="Splits when the Objective changes to Defeat Tyr" State="false"/>
             <Setting Id="5263360,5283840" Label="Open the Door" ToolTip="Splits when the Objective changes to Open the Door" State="false"/>
         </Setting>
-        
     </Setting>
-
-    <Setting Id="Berserker's" Label="Berserker's" ToolTip="Splits on each Berserker's fight after finishing them" State="false"/>
+    <Setting Id="Berserkers" Label="Berserkers" ToolTip="Splits on each Berserker's fight after finishing them" State="false"/>
 </Settings>
