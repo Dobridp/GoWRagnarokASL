@@ -31,7 +31,6 @@ startup
   vars.igtAux = 0.0;
   vars.igtAux2 = 0.0;
   vars.completedSplits = new List<string>{};
-  vars.Language = culture; // could potentially need if stuff requires different languages
 }
 
 update
