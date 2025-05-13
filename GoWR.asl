@@ -17,23 +17,21 @@ startup
   Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
   var culture = System.Globalization.CultureInfo.CurrentCulture.Name;
   vars.Log(culture);
-  vars.Language = ""; // could potentially need if stuff requires different languages
 
   switch (culture)
   {
     case "pt-BR": // work in progress
       vars.Helper.Settings.CreateFromXml("Components/GodOfWarRagnarok.Settings." + culture + ".xml");
-      vars.Language = "Brazilian Portuguese";
       break;
     default:
       vars.Helper.Settings.CreateFromXml("C:/Users/jjdom/OneDrive/Desktop/notes/GodOfWarRagnarok.Settings.en-US.xml");
-      vars.Language = "English";
       break;
   }
 
   vars.igtAux = 0.0;
   vars.igtAux2 = 0.0;
   vars.completedSplits = new List<string>{};
+  vars.Language = culture; // could potentially need if stuff requires different languages
 }
 
 update
