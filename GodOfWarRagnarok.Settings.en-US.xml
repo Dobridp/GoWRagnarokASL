@@ -11,87 +11,89 @@
             <Setting Id="143360,163840" Label="Follow Atreus Into The Forest" ToolTip="Splits when the Objective changes to Follow Atreus Into The Forest"/>
             <Setting Id="163840,184320" Label="Return Home" ToolTip="Splits when the Objective changes to Return Home"/>
             <Setting Id="184320,204800" Label="Follow Sindri To Gate" ToolTip="Splits when the Objective changes to Follow Sindri To Gate"/>
-            <!--<Setting Id="204800,225280" Label="Need to re-find 1" ToolTip="Splits in between objectives"/>-->
-            <Setting Id="225280,245760" Label="Enter The House" ToolTip="Splits when the Objective changes to Enter The House"/>
-            <Setting Id="245760,266240" Label="Talk To Sindri" ToolTip="Splits when the Objective changes to Talk To Sindri"/>
-            <Setting Id="266240,286720" Label="Follow Sindri" ToolTip="Splits when the Objective changes to Follow Sindri"/>
-            <Setting Id="286720,307200" Label="Meet At Fast Travel" ToolTip="Splits when the Objective changes to Meet At Fast Travel"/>
-            <Setting Id="307200,327680" Label="Travel To Svartalfheim" ToolTip="Splits when the Objective changes to Travel To Svartalfheim"/>
+            <Setting Id="204800,225280" Label="Surviving Fimbulwinter" ToolTip="Splits when the pop up Surviving Fimbulwinter completed"/>
         </Setting>
-        <Setting Id="The Quest For Tyr" Label="The Quest For Tyr" ToolTip="Contains all the splits for The Quest For Tyr(work in progress)">
-            <Setting Id="327680,348160" Label="Journey To Nid" ToolTip="Splits when the Objective changes to Journey To Nid"/>
-            <Setting Id="348160,368640" Label="Explore Nid" ToolTip="Splits when the Objective changes to Explore Nid"/>
+        <Setting Id="The Path" Label="The Path" ToolTip="Contains all the splits for The Path which is whenever you have a objective in between the main quests">
+            <Setting Id="225280,245760" Label="Enter The House" ToolTip="Splits when the Objective changes to Enter The House"/>
+            <Setting Id="245760,266240" Label="Talk To Sindri" ToolTip="Splits when the Objective changes to Talk To Sindri/when you exit Brok's shop"/>
+            <Setting Id="266240,286720" Label="Follow Sindri to the workshop" ToolTip="Splits when the Objective changes to Follow Sindri to the workshop"/>
+            <Setting Id="286720,307200" Label="Meet Brok and Sindri at the Mystic Gateway" ToolTip="Splits when the Objective changes to Meet Brok and Sindri at the Mystic Gateway"/>
+            <Setting Id="307200,327680" Label="Retrieve Mimir and Travel To Svartalfheim" ToolTip="Splits when the Objective changes to Retrieve Mimir and Travel To Svartalfheim"/>
+        </Setting>
+        <Setting Id="The Quest For Tyr" Label="The Quest For Tyr" ToolTip="Contains all the splits for The Quest For Tyr">
+            <Setting Id="327680,348160" Label="Journey To Nioavellir" ToolTip="Splits when the Objective changes to Journey To Nid/when you enter through the portal while in the realm between realms"/>
+            <Setting Id="348160,368640" Label="Explore Nioavellir" ToolTip="Splits when the Objective changes to Explore Nid"/>
             <Setting Id="368640,389120" Label="Boat To Durlin's" ToolTip="Splits when the Objective changes to Boat To Durlin's"/>
-            <!--<Setting Id="389120,409600" Label="Exit Durlin's Office To The Port" ToolTip="Splits when the Objective changes to Exit Durlin's Office To The Port"/>
-                <Setting Id="409600,430080" Label="Continue Through Port" ToolTip="Splits when the Objective changes to Continue Through Port"/>
-                <Setting Id="430080,450560" Label="Reach Front Of Train" ToolTip="Splits when the Objective changes to Reach Front Of Train"/>
-                <Setting Id="450560,471040" Label="Fix Broken Train" ToolTip="Splits when the Objective changes to Fix Broken Train"/>
-                <Setting Id="471040,491520" Label="Ride Train To Mines" ToolTip="Splits when the Objective changes to Ride Train To Mines"/> Need to redo these-->
-            <Setting Id="491520,512000" Label="Search Mines For Tyr" ToolTip="Splits when the Objective changes to Search Mines For Tyr"/>
+            <Setting Id="389120,409600" Label="Exit Durlin's Office To The Port" ToolTip="Splits when the Objective changes to Exit Durlin's Office To The Port"/>
+            <Setting Id="409600,430080" Label="Reach the mine beyond the mountain" ToolTip="Splits when the Objective changes to Reach the mine beyond the mountain"/>
+            <Setting Id="430080,450560" Label="Reach Front of the broken train" ToolTip="Splits when the Objective changes to Reach Front of the broken train"/>
+            <Setting Id="450560,471040" Label="Fix the broken train" ToolTip="Splits when the Objective changes to Fix the broken train"/>
+            <Setting Id="471040,491520" Label="Ride the train to the mines" ToolTip="Splits when the Objective changes to Ride the train to the mines"/>
+            <Setting Id="491520,512000" Label="Search the mines For Tyr" ToolTip="Splits when the Objective changes to Search the mines For Tyr"/>
             <Setting Id="512000,532480" Label="Pursue Tyr" ToolTip="Splits when the Objective changes to Pursue Tyr"/>
-            <Setting Id="532480,552960" Label="Exit Mines With Tyr" ToolTip="Splits when the Objective changes to Exit Mines With Tyr"/>
-            <Setting Id="552960,573440" Label="Return To Sindri's" ToolTip="Splits when the Objective changes to Return To Sindri's"/>
-            <!--<Setting Id="573440,593920" Label="Re-find 2" ToolTip="Splits when the Objective changes to Gap Objective"/>-->
-            <Setting Id="593920,614400" Label="Confer With Mimir" ToolTip="Splits when the Objective changes to Confer With Mimir"/>
-            <!--<Setting Id="614400,634880" Label="Re-find 3" ToolTip="Splits when the Objective changes to Gap Objective"/>-->
+            <Setting Id="532480,552960" Label="Exit the mines with Tyr" ToolTip="Splits when the Objective changes to Exit the mines with Tyr"/>
+            <Setting Id="552960,573440" Label="Escape through the Mystic Gateway" ToolTip="Splits when the Objective changes to Escape through the Mystic Gateway"/>
+            <Setting Id="573440,593920" Label="The Quest for Tyr End" ToolTip="Splits when The Quest for Tyr Ends"/>
+            <Setting Id="593920,614400" Label="Confer privately with Mimir" ToolTip="Splits when the Objective changes to Confer privately with Mimir"/>
         </Setting>
         <Setting Id="Old Friends" Label="Old Friends" ToolTip="Contains all the splits for Old Friends">
-            <Setting Id="634880,655360" Label="Travel To Midgard" ToolTip="Splits when the Objective changes to Travel To Midgard"/>
+            <Setting Id="614400,634880" Label="Atreus" ToolTip="Splits during the loading screen as you gain control of Atreus"/>
+            <Setting Id="634880,655360" Label="Enter the Mystic Gateway" ToolTip="Splits when the Objective changes to Enter the Mystic Gateway/when the quest Old Friends starts"/>
             <Setting Id="655360,675840" Label="Speak With Jormungandr" ToolTip="Splits when the Objective changes to Speak With Jormungandr"/>
-            <Setting Id="675840,696320" Label="Find Way Out" ToolTip="Splits when the Objective changes to Find Way Out"/>
+            <Setting Id="675840,696320" Label="Head back to the Mystic Gateway" ToolTip="Splits when the Objective changes to Head back to the Mystic Gateway"/>
             <Setting Id="696320,716800" Label="Speak With Freya" ToolTip="Splits when the Objective changes to Speak With Freya"/>
             <Setting Id="716800,737280" Label="Return To Sindri's" ToolTip="Splits when the Objective changes to Return To Sindri's"/>
         </Setting>
         <Setting Id="Groas Secret" Label="Groas Secret" ToolTip="Contains all the splits for Groas Secret">
             <Setting Id="737280,757760" Label="Travel To Alfheim" ToolTip="Splits when the Objective changes to Travel To Alfheim"/>
-            <Setting Id="757760,778240" Label="Reach The Triptych" ToolTip="Splits when the Objective changes to Reach The Triptych"/>
+            <Setting Id="757760,778240" Label="Reach Groa's shrine atop the temple" ToolTip="Splits when the Objective changes to Reach Groa's shrine atop the temple/when the Quest Groas Secret starts"/>
             <Setting Id="778240,798720" Label="Descend The Light Well" ToolTip="Splits when the Objective changes to Descend The Light Well"/>
-            <Setting Id="798720,819200" Label="Fight To Gate" ToolTip="Splits when the Objective changes to Fight To Gate"/>
-            <Setting Id="819200,839680" Label="Return To Sindri's" ToolTip="Splits when the Objective changes to Return To Sindri's(end of quest)"/>
+            <Setting Id="798720,819200" Label="Make your way to the Mystic Gateway" ToolTip="Splits when the Objective changes to Make your way to the Mystic Gateway"/>
+            <Setting Id="819200,839680" Label="Return To Sindri's when ready" ToolTip="Splits when the Objective changes to Return To Sindri's when ready (end of quest)"/>
             <Setting Id="839680,860160" Label="Eat Dinner" ToolTip="Splits when the Objective changes to Eat Dinner"/>
         </Setting>
         <Setting Id="The Lost Sanctuary" Label="The Lost Sanctuary" ToolTip="Contains all the splits for The Lost Sanctuary">
             <Setting Id="860160,880640" Label="Approach Phantom Atreus" ToolTip="Splits when the Objective changes to Approach Phantom Atreus"/>
             <Setting Id="880640,901120" Label="Follow The Wolf" ToolTip="Splits when the Objective changes to Follow The Wolf"/>
-            <Setting Id="901120,921600" Label="Explore Jotunheim With Angrboda" ToolTip="Splits when the Objective changes to Explore Jotunheim With Angrboda"/>
+            <Setting Id="901120,921600" Label="Explore Ironwood With Angrboda" ToolTip="Splits when the Objective changes to Explore Ironwood With Angrboda"/>
             <Setting Id="921600,942080" Label="Follow Angrboda To The Shrine" ToolTip="Splits when the Objective changes to Follow Angrboda To The Shrine"/>
-            <Setting Id="942080,962560" Label="Observe Angrboda's Daily Life" ToolTip="Splits when the Objective changes to Observe Angrboda's Daily Life"/>
-            <Setting Id="962560,983040" Label="Head To The Final Stop" ToolTip="Splits when the Objective changes to Head To The Final Stop"/>
+            <Setting Id="942080,962560" Label="Help Angrboda with 'Giant stuff'" ToolTip="Splits when the Objective changes to Help Angrboda with 'Giant stuff'"/>
+            <Setting Id="962560,983040" Label="Follow Angrboda through the canyon" ToolTip="Splits when the Objective changes to Follow Angrboda through the canyon"/>
             <Setting Id="983040,1003520" Label="Head Back To Jalla" ToolTip="Splits when the Objective changes to Head Back To Jalla"/>
-            <Setting Id="1003520,1024000" Label="Investigate The Passageway" ToolTip="Splits when the Objective changes to Investigate The Passageway"/>
-            <Setting Id="1024000,1044480" Label="Clear The Creepers From The Sinkhole" ToolTip="Splits when the Objective changes to Clear The Creepers From The Sinkhole"/>
-            <Setting Id="1044480,1064960" Label="Climb Back Up To The Surface" ToolTip="Splits when the Objective changes to Climb Back Up To The Surface"/>
-            <Setting Id="1064960,1085440" Label="Head Home Through The Marshes" ToolTip="Splits when the Objective changes to Head Home Through The Marshes"/>
+            <Setting Id="1003520,1024000" Label="Investigate the hidden Passageway" ToolTip="Splits when the Objective changes to Investigate the hidden Passageway"/>
+            <Setting Id="1024000,1044480" Label="Clear the Wretches from the sinkhole" ToolTip="Splits when the Objective changes to Clear the Wretches from the sinkhole"/>
+            <Setting Id="1044480,1064960" Label="Climb back up to the surface" ToolTip="Splits when the Objective changes to Climb back up to the surface"/>
+            <Setting Id="1064960,1085440" Label="Head home through the marshes" ToolTip="Splits when the Objective changes to Head home through the marshes"/>
             <Setting Id="1085440,1105920" Label="Free The Wolf From Gryla's Clutches" ToolTip="Splits when the Objective changes to Free The Wolf From Gryla's Clutches"/>
-            <Setting Id="1105920,1126400" Label="Free The Wolf" ToolTip="Splits when the Objective changes to Free The Wolf"/>
+            <Setting Id="1105920,1126400" Label="Set the wolf free" ToolTip="Splits when the Objective changes to Set the wolf free"/>
             <Setting Id="1126400,1146880" Label="Gryla Fight" ToolTip="Splits when you start the Gryla Fight"/>
-            <Setting Id="1146880,1167360" Label="Return To Angrboda's Camp" ToolTip="Splits when the Objective changes to Return To Angrboda's Camp"/>
-            <Setting Id="1167360,1187840" Label="Explore The Tree house" ToolTip="Splits when the Objective changes to Explore The Tree house"/>
-            <Setting Id="1187840,1208320" Label="Defeat Reavers" ToolTip="Splits when the Objective changes to Defeat Reavers"/>
-            <Setting Id="1208320,1228800" Label="Return To Sindri's House" ToolTip="Splits when the Objective changes to Return To Sindri's House"/>
+            <Setting Id="1146880,1167360" Label="Return To Angrboda's home" ToolTip="Splits when the Objective changes to Return To Angrboda's home"/>
+            <Setting Id="1167360,1187840" Label="Explore the treehouse" ToolTip="Splits when the Objective changes to Explore the treehouse"/>
+            <Setting Id="1187840,1208320" Label="Defeat Reavers" ToolTip="Splits when you return to midgard and there's Reavers"/>
+            <Setting Id="1208320,1228800" Label="Return home to Sindri's" ToolTip="Splits when the Objective changes to Return home to Sindri's"/>
         </Setting>
         <Setting Id="The Reckoning" Label="The Reckoning" ToolTip="Contains all the splits for The Reckoning">
-            <Setting Id="1228800,1249280" Label="Freya Fight" ToolTip="Splits when you start the Freya Fight"/>
-            <Setting Id="1249280,1269760" Label="Follow Freya To Vanaheim" ToolTip="Splits when the Objective changes to Follow Freya To Vanaheim"/>
-            <Setting Id="1269760,1290240" Label="Find The Source Blocking Freya's Realm Travel" ToolTip="Splits when the Objective changes to Find The Source Blocking Freya's Realm Travel"/>
-            <Setting Id="1290240,1310720" Label="Brok Captured" ToolTip="Splits when the Objective changes to Brok Captured"/>
-            <Setting Id="1310720,1331200" Label="Speak With Freyr" ToolTip="Splits when the Objective changes to Speak With Freyr"/>
-            <Setting Id="1331200,1351680" Label="Continue To The Village" ToolTip="Splits when the Objective changes to Continue To The Village"/>
-            <Setting Id="1351680,1372160" Label="Get Across The Bay" ToolTip="Splits when the Objective changes to Get Across The Bay"/>
-            <Setting Id="1372160,1392640" Label="Cross Broken Bridge" ToolTip="Splits when the Objective changes to Cross Broken Bridge"/>
-            <Setting Id="1392640,1413120" Label="Find Freya's Old House" ToolTip="Splits when the Objective changes to Find Freya's Old House"/>
+            <Setting Id="1228800,1249280" Label="Freya Fight" ToolTip="Splits when you gain control of Kratos after activating the door as atreus. But it does stay for the start of Freya fight"/>
+            <Setting Id="1249280,1269760" Label="Meet Brok at the Mystic Gateway" ToolTip="Splits when the Objective changes to Meet Brok at the Mystic Gateway (Start of the Reckoning)"/>
+            <Setting Id="1269760,1290240" Label="Locate the source of Freya's curse, and destroy it" ToolTip="Splits when the Objective changes to Locate the source of Freya's curse, and destroy it"/>
+            <Setting Id="1290240,1310720" Label="Brok Captured" ToolTip="Splits when Brok gets Captured in the cutscene"/>
+            <Setting Id="1310720,1331200" Label="Speak with Freyr" ToolTip="Splits when the Objective changes to Speak with Freyr"/>
+            <Setting Id="1331200,1351680" Label="Continue to seek the source of Freya's binding curse" ToolTip="Splits when the Objective changes to Continue to seek the source of Freya's binding curse"/>
+            <Setting Id="1351680,1372160" Label="Cross the valley to reach the watchtower" ToolTip="Splits when the Objective changes to Cross the valley to reach the watchtower"/>
+            <Setting Id="1372160,1392640" Label="Find a way to cross the broken bridge" ToolTip="Splits when the Objective changes to Find a way to cross the broken bridge"/>
+            <Setting Id="1392640,1413120" Label="Press onward in search of the binding curse" ToolTip="Splits when the Objective changes to Press onward in search of the binding curse"/>
             <Setting Id="1413120,1433600" Label="Nidhogg" ToolTip="Splits when you start the Nidhogg Fight"/>
-            <Setting Id="1433600,1454080" Label="Return To Freyr's Camp" ToolTip="Splits when the Objective changes to Return To Freyr's Camp"/>
+            <Setting Id="1433600,1454080" Label="Return to Freyr's Camp" ToolTip="Splits when the Objective changes to Return to Freyr's Camp"/>
             <Setting Id="1454080,1474560" Label="Retrieve Mimir" ToolTip="Splits when the Objective changes to Retrieve Mimir"/>
-            <Setting Id="1474560,1495040" Label="Depart Freyr's Camp" ToolTip="Splits when the Objective changes to Depart Freyr's Camp"/>
-            <!--<Setting Id="1495040,1515520" Label="Re-find 4" ToolTip="Splits in between objectives"/>-->
+            <Setting Id="1474560,1495040" Label="Depart Freyr's Camp when ready" ToolTip="Splits when the Objective changes to Depart Freyr's Camp when ready"/>
+            <Setting Id="1495040,1515520" Label="Return to Sindri's when ready (Reckoning quest end)" ToolTip="Splits when objective changes to Return to Sindri's when ready (Reckoning quest end)"/>
             <Setting Id="1515520,1536000" Label="Return To The Realm Travel Gate" ToolTip="Splits when the Objective changes to Return To The Realm Travel Gate"/>
             <Setting Id="1536000,1556480" Label="Check On Atreus" ToolTip="Splits when the Objective changes to Check On Atreus"/>
-            <Setting Id="1556480,1576960" Label="Draugr Fight as Atreus" ToolTip="Splits when you start the Draugr Fight as Atreus"/>
         </Setting>
         <Setting Id="The Runaway" Label="The Runaway" ToolTip="Contains all the splits for The Runaway">
+            <Setting Id="1556480,1576960" Label="Hel-walker Fight as Atreus" ToolTip="Splits when you start the Hel-walker Fight as Atreus"/>
             <Setting Id="1576960,1597440" Label="Find Shelter" ToolTip="Splits when the Objective changes to Find Shelter"/>
-            <Setting Id="1597440,1617920" Label="Continue To Freya's" ToolTip="Splits when the Objective changes to Continue To Freya's"/>
+            <Setting Id="1597440,1617920" Label="Investigate Freya's abandon house" ToolTip="Splits when the Objective changes to Investigate Freya's abandon house"/>
             <Setting Id="1617920,1638400" Label="Light A Fire For Chaurli" ToolTip="Splits when the Objective changes to Light A Fire For Chaurli"/>
             <Setting Id="1638400,1658880" Label="Follow Odin's Raven" ToolTip="Splits when the Objective changes to Follow Odin's Raven"/>
             <Setting Id="1658880,1679360" Label="Climb The Wall" ToolTip="Splits when the Objective changes to Climb The Wall"/>
