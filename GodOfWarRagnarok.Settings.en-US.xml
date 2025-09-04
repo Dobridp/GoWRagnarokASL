@@ -1,4 +1,5 @@
-<Setting Id= "Main Game" Label="Main Game" ToolTip="Splits every time you complete a story task">
+<Settings>
+    <Setting Id= "Main Game" Label="Main Game" ToolTip="Splits every time you complete a story task">
         <Setting Id="Surviving Fimbulwinter" Label="Surviving Fimbulwinter" ToolTip="Contains all the splits for Surviving Fimbulwinter main quest">
             <Setting Id="0,20480" Label="Head Home" ToolTip="Splits when the Objective changes to Head Home"/>
             <Setting Id="20480,40960" Label="Dream Sequence 1" ToolTip="Splits when you start the First Dream Sequence"/>
@@ -286,3 +287,10 @@
             <Setting Id="5263360,5283840" Label="Open the Door" ToolTip="Splits when the Objective changes to Open the Door"/>
         </Setting>
     </Setting>
+    <Setting Id="100%" Label="100%" ToolTip="Splits for 100% ng+ speedrun">
+        <Setting Id="Artifacts" Label="Artifacts" ToolTip="Splits for all the Artifacts in the game"/>
+        <Setting Id="Side Quests" Label="Side Quests" ToolTip="Splits on most side quests"/>
+        <Setting Id="Nornir Chest" Label="Nornir Chest" ToolTip="Splits when opening a Nornir Chest"/>
+    </Setting>
+    <Setting Id="Berserkers" Label="Berserkers" ToolTip="Splits on each Berserker's fight after finishing them"/>
+</Settings>
